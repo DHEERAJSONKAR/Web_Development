@@ -1,0 +1,231 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Salesforce Sans", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, "Helvetical Neue", Arial, Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol", " Noto Color Emoji";
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+
+}
+
+#header {
+    z-index: 100;
+    height: 14%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    background: white;
+}
+
+#fakeheader {
+    width: 100%;
+    height: 14%;
+}
+
+#logo {
+    height: 50%;
+    margin: 25px;
+}
+
+#logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text {
+    display: flex;
+    color: black;
+    margin: 10px;
+}
+
+.text:hover {
+    color: rgb(31, 235, 235);
+}
+
+#ContactDetails {
+    color: #02023a;
+    text-align: center;
+    font-weight: normal;
+}
+
+#ContactDetails p:first-child:hover {
+    color: rgb(15, 142, 142);
+}
+
+.icon {
+    color: #060141;
+    padding: 10px;
+    border-radius: 50%;
+
+}
+
+.icon:hover {
+    background: lightblue;
+}
+
+#login {
+    color: #02023a;
+    display: flex;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+#login:hover {
+    background: lightblue;
+}
+
+#try {
+    background: #2E844A;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+#try:hover {
+    background: #1C3326;
+}
+
+#page1 {
+    height: 86%;
+    width: 100%;
+    background: white;
+
+}
+
+#strip {
+    width: 100%;
+    height: 8%;
+    background-color: #1b00a0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#strip u {
+    margin-left: 25px;
+    font-weight: lighter;
+}
+
+#content {
+    width: 100%;
+    height: 76%;
+    background: white;
+    display: flex;
+}
+
+#box1 {
+    height: 90%;
+    width: 50%;
+
+}
+
+#heading {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #1b00a0;
+}
+
+#heading h1 {
+    
+    font-size: 40px;
+}
+
+#box1 h1 {
+    font-weight: 600;
+    font-size: 60px;
+    margin: 50px ;
+    color: #170767;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1 p {
+    font-weight: lighter;
+    font-size: 25px;
+    margin: 50px ;
+}
+
+#btns {
+    display: flex;
+    transform: translate(0%,-40%);
+    
+
+}
+
+#btns1 {
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 30%;
+    margin: 50px;
+    padding: 10px 20px;
+    background: rgb(10, 10, 226);
+    color: white;
+}
+
+#btns1:hover {
+    background: #442298;
+}
+
+#btns2 {
+    font-size: 25px;
+    border-radius: 5px;
+    width: 25%;
+    margin: 50px;
+    padding: 10px 20px;
+    color: rgb(52, 196, 196);
+    border: 2px solid rgb(95, 184, 219);
+}
+
+#btns2:hover {
+    background: lightblue;
+    color: rgb(13, 146, 146);
+
+}
+
+#box2 {
+    height: 80%;
+    width: 50%;
+
+}
+
+#box2 img {
+    height: 100%;
+    width: 100%;
+}
+
+#card {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+    transform: translate(0%, -90%);
+    border: #060141;  
+
+}
+
+#card iframe {
+    border-radius: 15px;
+}
+
