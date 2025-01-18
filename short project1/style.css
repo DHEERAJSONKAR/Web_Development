@@ -1,0 +1,50 @@
+div{
+    text-align: center;
+    font-size: large;
+}
+@media (max-width: 600px){
+    /* mobile */
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: 'this is mobile compatible'
+    }
+}
+@media (min-width:600px) {
+    /* portrait table and big phones */
+body{
+  background-color: aquamarine;
+}
+div::after{
+    content: 'portrait table and big phones'
+}
+    
+}
+@media (min-width: 768px){
+/* tablet */
+    body{
+        background-color: blue;
+    }
+    div::after{
+        content: 'this is a tablet compatible'
+    }
+}
+@media (min-width: 992px){
+    /* laptop */
+    body{
+        background-color: chartreuse;
+    }
+    div::after{
+    content: 'latop'
+    }
+}
+@media (min-width: 1200px){
+    /* large screen */
+    body{
+        background-color: blueviolet;
+    }
+    div::after{
+        content: 'large Screen'
+    }
+}
