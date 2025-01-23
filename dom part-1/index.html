@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom part 1</title>
+</head>
+<body>
+   <!-- <script src="script.js"></script>  -->
+    
+<!-- id -->
+ <p id="one"><span>Namaste</span> </p>
+ <!-- class -->
+  <ul>
+    <li class="tech">one</li>
+    <li class="tech">two</li>
+    <li class="tech">three</li>
+  </ul>
+  <!-- // tag nameh -->
+
+<h4>hey</h4>
+<h4>hello</h4>
+<h4>hi</h4>
+<h4>why</h4>
+<!-- Query Selector -->
+ <h2>hello</h2>
+ <h2 class="dk">hella</h2>
+ <h2 class="mk">mdsfjds</h2>
+ <script>
+    let name =  document.getElementById("one");
+    console.log(name.innerHTML);
+    //class
+    let var2 = document.getElementsByClassName("tech");
+    console.log(var2[1].innerHTML);
+    var2[1].innerText ="node js";
+    //  tag name
+    var3 = document.getElementsByTagName("h4");
+    console.log(var3[1].innerText);
+    var3[0].innerText = "dheeraj sonkar"
+    var3[1].style.color = "red";
+    var3[2].style.color = "blue";
+    // Query Selector
+    let date = document.querySelector(".mk");
+    console.log(date);
+    // date.className = "I am  Web Developer";
+    date.classList = "who are you";
+    date.setAttribute("title", "Dheeraj Sonkar");
+  </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom part 3</title>
+</head>
+<body>
+    <!-- normal html -->
+    <h1>hello Bacho - PWSKILLS</h1>
+    <p id="js">Namaste Bacho</p>
+    <button ondblclick="hey()" id="jss">Sumbit</button>
+    <!-- javascript -->
+    <script>
+        document.addEventListener("dblclick",hello);
+        function hello(){
+            document.getElementById("js").innerText = " Bacho"
+        }
+        function hey(){
+            document.getElementById("jss").innerText = "Refresh";
+            document.getElementById("jss").style.color = "red";
+            document.getElementById("jss").style.backgroundColor = "blue";
+            document.getElementById("jss").style.padding = "5px";
+            document.getElementById("jss").style.border = "2px solid black";
+        }
+    </script>
+</body>
+</html>
